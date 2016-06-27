@@ -1,0 +1,29 @@
+{
+  "name": "d3-transition-rollup-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "rollup -c",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curran/d3-transition-rollup-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/curran/d3-transition-rollup-test/issues"
+  },
+  "homepage": "https://github.com/curran/d3-transition-rollup-test#readme",
+  "dependencies": {
+    "d3-selection": "^1.0.0",
+    "d3-transition": "^1.0.0"
+  },
+  "devDependencies": {
+    "jsdom": "^9.3.0",
+    "rollup": "^0.33.0",
+    "rollup-plugin-node-resolve": "^1.7.1"
+  }
+}
