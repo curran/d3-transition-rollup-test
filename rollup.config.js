@@ -7,7 +7,8 @@ export default {
   sourceMap: "inline",
   moduleName: "D3TransitionTest",
   plugins: [
-    npm({ jsnext: true })
+    npm({ jsnext: true }),
+    commonjs()
   ],
   dest: "index-build.js"
 };
